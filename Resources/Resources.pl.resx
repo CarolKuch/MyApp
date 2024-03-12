@@ -117,7 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HomeWelcome" xml:space="preserve">
-    <value>Welcome to clinic reservation page. Register or schedule a visit for free.  You can book your appointment via our online booking system.</value>
+  <data name="ChooseYourLanguage" xml:space="preserve">
+    <value>Zmień język</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="HomeWelcomeDescription" xml:space="preserve">
+    <value>Witamy na stronie rezerwacji kliniki. Zarejestruj się lub umów na bezpłatną wizytę. Rezerwacji wizyty możesz dokonać poprzez nasz system rezerwacji on-line.</value>
+  </data>
+  <data name="HomeWelcomeTitle" xml:space="preserve">
+    <value>Przychodnia Dr Śliwa</value>
   </data>
 </root>

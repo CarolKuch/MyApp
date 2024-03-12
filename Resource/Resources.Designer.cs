@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.Resources {
+namespace Resource {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace WebApplication1.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Home {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Home() {
+        internal Resources() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace WebApplication1.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WebApplication1.Resources.Home", typeof(Home).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Resource.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,29 @@ namespace WebApplication1.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Select your language.
+        /// </summary>
+        public static string ChooseYourLanguage {
+            get {
+                return ResourceManager.GetString("ChooseYourLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Welcome to clinic reservation page. Register or schedule a visit for free.  You can book your appointment via our online booking system..
         /// </summary>
-        public static string HomeWelcome {
+        public static string HomeWelcomeDescription {
             get {
-                return ResourceManager.GetString("HomeWelcome", resourceCulture);
+                return ResourceManager.GetString("HomeWelcomeDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dr Plum Clinic.
+        /// </summary>
+        public static string HomeWelcomeTitle {
+            get {
+                return ResourceManager.GetString("HomeWelcomeTitle", resourceCulture);
             }
         }
     }
